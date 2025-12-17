@@ -10,11 +10,15 @@ namespace Task4_app
     {
         public class PaymentService
         {
+            
             public bool ProcessPayment(object payment)
             {
+                if (payment == null) return false;  // null check branch
+
                 // base logic
                 return true;
             }
+
         }
 
     }
