@@ -12,9 +12,10 @@ namespace Task4_app
         {
             public bool ProcessPayment(object payment)
             {
-                // base logic
-                return true;
+                // updated return logic branch
+                return payment != null;  // different from Branch A version
             }
+
         }
 
     }
